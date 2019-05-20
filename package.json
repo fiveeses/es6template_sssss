@@ -1,0 +1,25 @@
+{
+  "name": "es6template_sssss",
+  "version": "0.0.1",
+  "description": "Template for es6 package development",
+  "main": "(none)",
+  "scripts": {
+    "builddoc": ".\\node_modules\\.bin\\esdoc",
+    "test": ".\\node_modules\\.bin\\karma start"
+  },
+  "author": "fiveeses@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "esdoc": "^1.1.0",
+    "esdoc-standard-plugin": "^1.0.0",
+    "eslint": "^5.16.0",
+    "gulp": "^4.0.2",
+    "jasmine-core": "^3.4.0",
+    "karma": "^4.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-spec-reporter": "0.0.32",
+    "rollup": "^1.12.2"
+  },
+  "dependencies": {}
+}
